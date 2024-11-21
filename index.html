@@ -4,12 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sustentamente</title>
-    <link rel="stylesheet" href="./styles/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/estilos_gerais.css">
+    <link rel="stylesheet" href="./styles/cabecalho.css">
+    <link rel="stylesheet" href="./styles/apresentacao.css">
+    <link rel="stylesheet" href="./styles/conceitos_emocionais.css">
+    <link rel="stylesheet" href="./styles/resumo.css">
+    <link rel="stylesheet" href="./styles/rodape.css">
+    <link rel="stylesheet" href="./styles/contate_nos.css">
 </head>
 <body>
+
     <header class="cabecalho">
         <nav class="barra_navegacao">
-            <a class="logo" href="#"><img src="./imgs/logo.png" alt=""></a>
+            <div class="logo">
+                <a class="logo" href="#"><img src="./imgs/logo.png" alt=""></a>
+            </div>
+            <div class="itens_navbar">
+                <ul>
+                    <li><a href="#">INICIO</a></li>
+                    <li><a href="#conceitos_emocionais">CONCEITOS</a></li>
+                    <li><a href="#contate-nos">CONTATE-NOS</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
     
@@ -18,28 +35,29 @@
             <img src="./imgs/7-habitos-para-uma-vida-mais-equilibrada.jpg" alt="">
         </div>
         <div class="texto_informativo">
-            <h2><span>Sustentamente</span><br>é um conceito que se refere à capacidade de manter o equilíbrio emocional ao longo do tempo, mesmo diante de desafios, estresses e adversidades da vida.</h2>
+            <h2>Sustentamente</h2>
+            <p>é um conceito que se refere à capacidade de manter o equilíbrio emocional ao longo do tempo, mesmo diante de desafios, estresses e adversidades da vida.</p>
         </div>
     </section>
 
     <div class="texto_complementar">
-        <h2>Esse conceito também envolve a construção de um bem-estar emocional que não só seja capaz de enfrentar dificuldades, mas também se recupere delas, evitando o esgotamento ou a sobrecarga emocional.<br>Algumas das práticas e características associadas à sustentabilidade emocional incluem:</h2>
+        <h2><span>E</span>sse conceito também envolve a construção de um bem-estar emocional que não só seja capaz de enfrentar dificuldades, mas também se recupere delas, evitando o esgotamento ou a sobrecarga emocional.<br>Algumas das práticas e características associadas à sustentabilidade emocional incluem:</h2>
     </div>
 
 
-    <section class="conceitos_emocionais">
+    <section class="conceitos_emocionais" id="conceitos_emocionais">
         
-        <div class="conceitos autoconhecimento">
+        <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-delay="200" class="conceitos autoconhecimento">
             <div class="imagem_emocional imagem_autoconhecimento">
                 <img src="./imgs/autoconhecimento imagem.png" alt="">
             </div>
             <div class="informacao_explicativa">
                 <h3>1. Autoconhecimento</h3>
-                <p></p>Entender as próprias emoções, necessidades e limites. Isso permite que a pessoa reconheça quando está sobrecarregada e tome ações para cuidar de si mesma.</p>
+                <p>Entender as próprias emoções, necessidades e limites. Isso permite que a pessoa reconheça quando está sobrecarregada e tome ações para cuidar de si mesma.</p>
             </div>
         </div>
 
-        <div class="conceitos resiliencia_emocional">
+        <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-delay="200" class="conceitos resiliencia_emocional">
             <div class="imagem_emocional imagem_resiliencia_emocional">
                 <img src="./imgs/resilencia emocional imagem.png" alt="">
             </div>
@@ -49,7 +67,7 @@
             </div>
         </div>
 
-        <div class="conceitos gerenciamento_estresse">
+        <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-delay="200" class="conceitos gerenciamento_estresse">
             <div class="imagem_emocional imagem_gerenciamento_estresse">
                 <img src="./imgs/gerenciamento do estresse imagem.png" alt="">
             </div>
@@ -59,7 +77,7 @@
             </div>
         </div>
 
-        <div class="conceitos esquilibrio_emocional">
+        <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-delay="200" class="conceitos esquilibrio_emocional">
             <div class="imagem_emocional imagem_equilibrio_emocional">
                 <img src="./imgs/equilibrio emocional imagem.png" alt="">
             </div>
@@ -69,7 +87,7 @@
             </div>
         </div> 
 
-        <div class="conceitos rede_de_apoio_social">
+        <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-delay="200" class="conceitos rede_de_apoio_social">
             <div class="imagem_emocional imagem_rede_de_apoio_social">
                 <img src="./imgs/Rede de apoio social imagem.png" alt="">
             </div>
@@ -79,7 +97,7 @@
             </div>
         </div>
         
-        <div class="conceitos autocuidado">
+        <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-delay="200" class="conceitos autocuidado">
             <div class="imagem_emocional imagem_autocuidado">
                 <img src="./imgs/auto cuidado imagem.png" alt="">
             </div>
@@ -89,7 +107,7 @@
             </div>
         </div> 
 
-        <div class="conceitos crescimento_e_aprendizado_continuo">
+        <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-delay="200" class="conceitos crescimento_e_aprendizado_continuo">
             <div class="imagem_emocional imagem_crescimento_e_aprendizado_continuo">
                 <img src="./imgs/Crescimento e aprendizado continuo imagem.png" alt="">
             </div>
@@ -101,7 +119,7 @@
 
     </section>
 
-    <section class="resumo">
+    <section data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-delay="200" class="resumo">
         <div class="lustracao_resumo">
             <img src="imgs/em resumo.png" alt="">
         </div>
@@ -109,36 +127,73 @@
             <h3>
                 EM RESUMO
             </h3>
-            <p>sustentabilidade emocional é sobre manter uma saúde emocional que seja resiliente, equilibrada e capaz de lidar com os altos e baixos da vida de forma construtiva, sem se desgastar de maneira excessiva. Isso envolve um conjunto de práticas e atitudes que ajudam a pessoa a enfrentar as pressões da vida sem perder o bem-estar e a estabilidade emocional ao longo do tempo.</p>
+            <p>sustentabilidade emocional é sobre manter uma saúde emocional que seja resiliente, equilibrada e capaz de lidar com os altos e baixos da vida de forma construtiva, sem se desgastar de maneira excessiva.</p>
         </div>
     </section>
     
-    <footer class="rodape">
-        <did class="informacoes_adicionais">
-            <div class="sobre">
-                <div>
-                    <h4>Quem nós somos</h4>
-                    <p>Sustentamente é um projeto realiado pela turma Técnico em Informática Subsequente, da escola EETEPA Deodoro de Mendonça, feito para a feira projeto integrador 2024. </p>
+    
+    <section class="contate_nos" id="contate-nos">
+        
+        <h4>Para mais informações sobre o assunto<br> contate-nos</h4>
+
+        <fieldset>
+            <div class="lado_esquerdo">
+                <div class="campo_de_input primeiro_nome">
+                    <label for="primeiro_nome">Primeiro nome</label>
+                    <input type="text" name="primeiro_nome" id="primeiro_nome">
                 </div>
-                <p>Em colobaração com a professora Mariane Imbiriba, esse tema foi escolhido junto com a criação dessa página, com intuito de ajudar as pessoas a ter o équilibrio mental e promovê-lo para o restante do dia e sua vida pessoal.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, id illo reprehenderit porro delectus quibusdam quia, saepe totam cumque enim ipsum illum soluta sit quos adipisci hic exercitationem tempore aut!</p>
+                <div class="campo_de_input segundo_nome">
+                    <label for="segundo_nome">Segundo nome</label>
+                    <input type="text" name="segundo_nome" id="segundo_nome">
+                </div>
+                <div class="campo_de_input email_usuario">
+                    <label for="e-mail">E-mail</label>
+                    <input type="email" name="e-mail" id="e-mail">
+                </div>
+                <button type="submit">Enviar ></button>
+            </div>
+            
+            <div class="lado_direito">
+                <label for="mensagem">Mensagem</label>
+                <textarea name="mensagem" id="mensagem" placeholder="Escreva sua mensagem aqui..."></textarea>
+            </div>
+        </fieldset>
+    </section>
+    
+    <footer class="rodape">
+        <div class="informacoes_adicionais">
+            <div class="sobre_nos">
+                <h4>Quem nós somos</h4>
+                <p>Sustentamente é um projeto realiado pela turma Técnico em Informática Subsequente, da escola EETEPA Deodoro de Mendonça, feito para a feira de ciências 2024. </p>
+                <p>Em colobaração com a professora Mariane Imbiriba, esse tema foi escolhido junto com a criação dessa página, com intuito de ajudar as pessoas a ter o équilibrio mental e promovê-lo para o restante do dia e para sua vida pessoal.</p>
+                <p>&#169 DEODORO DE MENDONÇA - SUBINFO 2024</p>
             </div>
             
             <div class="contane_nos">
-                <h4>Mais sobre nós</h4>
+                <h4>Onde estamos</h4>
                 <ul>
-                    <li><a href="#">Facebook</a></li>
-                    <li><a href="#">Instagram</a></li>
-                    <li><a href="#">Telegram</a></li>
+                    <li><a href="https://www.facebook.com/deodorooficial/posts/1001875941384767/" target="_blank">Facebook</a></li>
+                    <li><a href="https://www.instagram.com/deodoro.oficial/" target="_blank">Instagram</a></li>
                 </ul>
             </div>
-            <div class="logo_final">
-                <img src="./imgs/deodoro logo.png" alt="">
-                <h4>EETEPA<br>DEODORO<br>MENDONÇA</h4>
+            <div class="apoiadores">
+                <div class="apoio">
+                    <h4>APOIO</h4>
+                </div>
+                <div class="entidades">
+                    <img src="./imgs/deodoro logo.png" alt="">
+                    <img src="./imgs/governo do para logo.png" alt="">
+                </div>
             </div>
         </did>
 
     </footer>
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+     AOS.init();
+    </script>
 </body> 
+
+
+
 </html>  

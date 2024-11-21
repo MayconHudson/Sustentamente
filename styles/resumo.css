@@ -1,0 +1,31 @@
+@import url(../styles/estilos_gerais.css);
+
+.resumo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin: 170px 0;
+    margin-inline: auto;
+    gap: 60px;
+    border: dashed 2px #003413;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.resumo .lustracao_resumo img {
+    width: 150px;
+    margin-left: 30px;
+}
+
+.resumo .resumo_escrito h3 {
+    color: var(--color-primary);
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.resumo .resumo_escrito p {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+}

@@ -1,0 +1,44 @@
+@import url(../styles/estilos_gerais.css);
+
+.conceitos_emocionais {
+    margin-inline: 20vh;
+    display: grid;
+    gap: 60px;
+}
+
+.conceitos {
+    background-color: var(--color-teciary);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden; 
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 52, 19, 0.1);
+}
+
+.imagem_emocional img {
+    width: 200px;
+    filter: saturate(60%);
+    filter: opacity(80%);
+}
+
+.informacao_explicativa {
+    width: 50%;
+}
+
+.informacao_explicativa h3 {
+    font-weight: 400;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: var(--color-primary);
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.informacao_explicativa p {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 300;
+    color: var(--color-text);
+}

@@ -1,0 +1,66 @@
+@import url(../styles/estilos_gerais.css);
+
+.apresentacao {
+    padding-top: 70px;
+}
+
+.imagem_princiapl {
+    display: flex;
+    justify-content: center;
+}
+
+.imagem_princiapl img {
+    width: 97%;
+    border-radius: 10px;
+}
+
+.texto_informativo {
+    position: absolute;
+    top: 25vh;
+    left: 20vh;
+    width: 40vw;
+    min-height: 150px;
+    background-color: #f9fdf9a9;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.texto_informativo h2 {
+    color: var(--color-primary);
+    font-weight: bold;
+    font-size: 2.5rem;
+
+}
+
+.texto_informativo p {
+    font-weight: 200;
+    font-size: 1.2rem;
+    color: var(--color-text);
+    line-height: 30px;
+}
+
+
+/** Texto complementar **/
+
+.texto_complementar {
+    margin: 120px 20vh 100px 20vh;
+    height: 200px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.texto_complementar h2 {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 40px;
+    color: var(--color-text);
+    text-align: justify;
+}
+
+.texto_complementar h2 span {
+    color: var(--color-primary);
+    font-size: 2.5rem;
+    font-style: bold;
+    font-weight: 400;
+}

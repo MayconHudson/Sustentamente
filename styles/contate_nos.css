@@ -1,0 +1,89 @@
+@import url(../styles/estilos_gerais.css);
+
+* {
+    border: none;
+    outline: none;
+    resize: none;
+}
+
+#contate-nos {
+    scroll-margin-top: 80px;
+  }
+
+.contate_nos h4 {
+    text-align: center;
+    font-size: 30px;
+    color: var(--color-primary);
+    text-transform: uppercase;
+}
+
+.contate_nos {
+    width: 97%;
+    margin-inline: auto;
+}
+
+.contate_nos fieldset {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 10px;
+    padding: 40px 20vh;
+    background-color: var(--color-primary);
+    gap: 30px;
+    border: none;
+    margin: 20px 0 100px 0;
+}
+
+fieldset .campo_de_input {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px;
+}
+
+fieldset .campo_de_input input {
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    color: var(--color-text);
+}
+
+fieldset .campo_de_input label {
+    color: #fff;
+}
+
+fieldset button {
+    padding: 10px;
+    cursor: pointer;
+    color: var(--color-secundary);
+    border-radius: 10px;
+}
+
+fieldset button:hover {
+    background-color: transparent;
+    outline: solid 1px #fff;
+    color: #fff;
+}
+
+fieldset .lado_direito {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+fieldset .lado_direito label {
+    color: #fff;
+}
+
+fieldset .lado_direito textarea {
+    border-radius: 5px;
+    height: 100%;
+    padding: 10px;
+    scrollbar-width: none;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,62 @@
+@import url(../styles/estilos_gerais.css);
+
+.rodape {
+    margin: 0 auto 20px auto;
+    width: 97%;
+    border: solid 1px #0034137a;
+    border-radius: 10px;
+    padding: 40px;
+}
+
+.rodape h4 {
+    color: var(--color-secundary);
+    margin-bottom: 7px;
+}
+
+.informacoes_adicionais {
+    display: grid;
+    grid-template-columns: 40% 20% auto;
+}
+
+.sobre_nos p {
+    color: var(--color-text);
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+.contane_nos {
+    margin-left: 60px;
+}
+
+.contane_nos ul li {
+    margin-bottom: 7px;
+}
+
+.contane_nos ul li a {
+    color: var(--color-text);
+    font-size: 15px;
+}
+
+.contane_nos ul li a:hover {
+    text-decoration: underline;
+}
+
+
+.apoiadores .apoio {
+    margin-bottom: 20px;
+}
+
+.apoiadores .entidades {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+.apoiadores img {
+    width: 100px;
+}
+
+.apoiadores .apoio h4 {
+    text-align: center;
+}

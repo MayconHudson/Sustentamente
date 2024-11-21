@@ -1,0 +1,45 @@
+@import url(../styles/estilos_gerais.css);
+
+.cabecalho {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-teciary);
+    position: fixed;
+    top: 0;
+    z-index: 5;
+
+}
+
+.barra_navegacao {
+    margin-inline: 20vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.barra_navegacao .logo img {
+    width: 50px;
+    filter: saturate(300%);
+}
+
+.barra_navegacao .itens_navbar ul {
+    display: flex;
+
+}
+
+.barra_navegacao .itens_navbar ul li {
+    margin-left: 30px;
+}
+
+.barra_navegacao .itens_navbar li a {
+    color: var(--color-secudary);
+}
+
+.barra_navegacao .itens_navbar li a:hover {
+    color: var(--color-primary);
+    
+}
